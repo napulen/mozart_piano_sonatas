@@ -37,7 +37,7 @@ The README in each folder contains information about the respective files.
 
 ## Accessing the Data
 
-The included script `mozart_loader.py` lets you conveniently create an augmented representation of the data. First, create a local copy of this repository, either by using the command `git clone https://github.com/DCMLab/mozart_piano_sonatas.git` or by unpacking this [ZIP file](https://github.com/DCMLab/mozart_piano_sonatas/archive/master.zip). After navigating to your local copy, you can simply run the script by typing `python mozart_loader.py`. The script requires Python >= 3.6 with `pandas` >=  0.24.0 installed.
+The included script `mozart_loader.py` lets you conveniently create an augmented representation of the data. First, create a local copy of this repository, either by using the command `git clone https://github.com/XXX/mozart_piano_sonatas.git` or by unpacking this [ZIP file](https://github.com/XXX/mozart_piano_sonatas/archive/master.zip). After navigating to your local copy, you can simply run the script by typing `python mozart_loader.py`. The script requires Python >= 3.6 with `pandas` >=  0.24.0 installed.
 
 ### Raw Data
 
@@ -57,7 +57,7 @@ When joining the notes with labels, the latter often appear duplicated, namely o
 
 ### Accessing Harmony Features
 
-The harmony labels follow the [DCML standard for harmonic annotation](https://github.com/DCMLab/standards) and can be split into feature columns.
+The harmony labels follow the [XXX standard for harmonic annotation](https://github.com/XXX/standards) and can be split into feature columns.
 
 * Using the option `-e` on the script will perform this expansion for you and spread the encoded information over the DataFrame, e.g. information about global and local keys.
 * If you want to transpose all labels to the global tonic, thus eliminating the information about local keys, use `-g`.
@@ -100,7 +100,7 @@ df = load_tsv(tsv, stringtype=False)
 For convenience a function for converting the chord tones into other representations
 is available. Here are a couple of examples. They show different representations for
 this small segment of the Adagio from K. 280:
-![mozart score example from K280-2](https://www.epfl.ch/labs/dcml/wp-content/uploads/2020/04/280-2.png)
+![mozart score example from K280-2](280-2.png)
 
 The function `transform_note_columns()` receives a TSV file created by `mozart_loader.py [-E][-g][-a]`
 and outputs it with an altered representation of the chord tones.

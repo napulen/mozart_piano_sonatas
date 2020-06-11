@@ -2,10 +2,10 @@
 
 """ This script outputs data related to the scores of the 18 Piano Sonatas by W.A.
 Mozart as TSV files. It is hard-coded for being run at the top level of the repository
-https://github.com/DCMLab/mozart_piano_sonatas.
+https://github.com/XXX/mozart_piano_sonatas.
 
 In order to create the TSV files anew from the (MS3) MSCX files, use this
-script that will be available in the near future at https://github.com/DCMLab :
+script that will be available in the near future at https://github.com/XXX :
 
     python extract_annotations.py scores -NHMqos
 """
@@ -22,10 +22,10 @@ from utils.feature_matrices import compute_beat, compute_mn, ensure_types, itera
 from utils.expand_labels import expand_labels
 from utils.harmony import regex
 
-__author__ = "Johannes Hentschel"
+__author__ = "XXX"
 __copyright__ = """
 
-    Copyright 2020, Ecole Polytechnique Fédéral de Lausanne, Digital and Cognitive Musicology Lab
+    Copyright 2020, XXX, XXX
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -41,11 +41,11 @@ __copyright__ = """
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-__credits__ = ["Johannes Hentschel", "Andrew McLeod"]
+__credits__ = ["XXX", "XXX"]
 __license__ = "GPL-3.0-or-later"
 __version__ = "1.0.0"
-__maintainer__ = "Johannes Hentschel"
-__email__ = "johannes.hentschel@epfl.ch"
+__maintainer__ = "XXX"
+__email__ = "XXX@XXX.XX"
 __status__ = "Production"
 
 

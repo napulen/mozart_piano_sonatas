@@ -43,7 +43,7 @@ SM = SliceMaker()
 
 
 ################################################################################
-# Functions for treating DCML harmony labels
+# Functions for treating XXX harmony labels
 ################################################################################
 
 def abs2rel_key(abs, localkey, global_minor=False):
@@ -134,7 +134,7 @@ def changes2tpc(changes, numeral, minor=False, root_alterations=False):
     Parameters
     ----------
     changes : :obj:`str`
-        A string of changes following the DCML harmony standard.
+        A string of changes following the XXX harmony standard.
     numeral : :obj:`str`
         Roman numeral. If it is preceded by accidentals, it depends on the parameter
         `root_alterations` whether these are taken into account.
@@ -180,7 +180,7 @@ def chord2tpcs(chord, regex, **kwargs):
 
 
 def compute_chord_tones(df, bass_only=False, expand=False, cols={}):
-    """ Compute the chord tones for DCML harmony labels. They are returned as lists
+    """ Compute the chord tones for XXX harmony labels. They are returned as lists
         of tonal pitch classes in close position, starting with the bass note. The
         tonal pitch classes represent intervals relative to the local tonic:
         -2: Second below tonic
@@ -195,7 +195,7 @@ def compute_chord_tones(df, bass_only=False, expand=False, cols={}):
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe containing DCML chord labels that have been split by split_labels()
+        Dataframe containing XXX chord labels that have been split by split_labels()
         and where the keys have been propagated using propagate_keys(add_bool=True).
     bass_only : :obj:`bool`, optional
         Pass True if you need only the bass note.
@@ -253,7 +253,7 @@ def compute_chord_tones(df, bass_only=False, expand=False, cols={}):
 
 
 def expand_labels(df, column, regex, groupby={'level': 0, 'group_keys': False}, cols={}, dropna=False, propagate=True, relative_to_global=False, chord_tones=False, absolute=False, all_in_c=False):
-    """ Split harmony labels complying with the DCML syntax into columns holding their various features
+    """ Split harmony labels complying with the XXX syntax into columns holding their various features
         and allows for additional computations and transformations.
         Uses: split_labels(), replace_special(), propagate_keys(), propagate_pedal(),
               compute_chord_tones(), transform(), transpose(), labels2global_tonic(),
@@ -262,7 +262,7 @@ def expand_labels(df, column, regex, groupby={'level': 0, 'group_keys': False}, 
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe where one column contains DCML chord labels.
+        Dataframe where one column contains XXX chord labels.
     column : :obj:`str`
         Name of the column that holds the harmony labels.
     regex : :obj:`re.Pattern`
@@ -686,7 +686,7 @@ def labels2global_tonic(df, cols={}, inplace=False):
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe containing DCML chord labels that have been split by split_labels()
+        Dataframe containing XXX chord labels that have been split by split_labels()
         and where the keys have been propagated using propagate_keys(add_bool=True).
     cols : :obj:`dict`, optional
         In case the column names for ['numeral', 'form', 'figbass', 'changes', 'relativeroot', 'localkey', 'globalkey'] deviate, pass a dict, such as
@@ -789,7 +789,7 @@ def propagate_keys(df, globalkey='globalkey', localkey='localkey', add_bool=True
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe containing DCML chord labels that have been split by split_labels().
+        Dataframe containing XXX chord labels that have been split by split_labels().
     globalkey, localkey : :obj:`str`, optional
         In case you renamed the columns, pass column names.
     add_bool : :obj:`bool`, optional
@@ -835,7 +835,7 @@ def propagate_pedal(df, relative=True, drop_pedalend=True, cols={}):
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe containing DCML chord labels that have been split by split_labels()
+        Dataframe containing XXX chord labels that have been split by split_labels()
         and where the keys have been propagated using propagate_keys().
     relative : :obj:`bool`, optional
         Pass False if you want the pedal note to stay the same even if the localkey changes.
@@ -962,7 +962,7 @@ def replace_special(df, regex, merge=False, inplace=False, cols={}, special_map=
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe containing DCML chord labels that have been split by split_labels().
+        Dataframe containing XXX chord labels that have been split by split_labels().
     regex : :obj:`re.Pattern`
         Compiled regular expression used to split the labels replacing the special symbols.It needs to have named groups.
         The group names are used as column names unless replaced by `cols`.
@@ -1123,12 +1123,12 @@ def sort_tpcs(tpcs, ascending=True, start=None):
 
 
 def split_labels(df, column, regex, cols={}, dropna=False, **kwargs):
-    """ Split harmony labels complying with the DCML syntax into columns holding their various features.
+    """ Split harmony labels complying with the XXX syntax into columns holding their various features.
 
     Parameters
     ----------
     df : :obj:`pandas.DataFrame`
-        Dataframe where one column contains DCML chord labels.
+        Dataframe where one column contains XXX chord labels.
     column : :obj:`str`
         Name of the column that holds the harmony labels.
     regex : :obj:`re.Pattern`
@@ -1318,7 +1318,7 @@ def transpose(e, n):
 
 
 def transpose_changes(changes, old_num, new_num, old_minor=False, new_minor=False):
-    """ Since the interval sizes expressed by the changes of the DCML harmony syntax
+    """ Since the interval sizes expressed by the changes of the XXX harmony syntax
         depend on the numeral's position in the scale, these may change if the numeral
         is transposed. This function expresses the same changes for the new position.
         Chord tone alterations (of 3 and 5) stay untouched.
@@ -1327,7 +1327,7 @@ def transpose_changes(changes, old_num, new_num, old_minor=False, new_minor=Fals
     Parameters
     ----------
     changes : :obj:`str`
-        A string of changes following the DCML harmony standard.
+        A string of changes following the XXX harmony standard.
     old_num, new_num : :obj:`str`:
         Old numeral, new numeral.
     old_minor, new_minor : :obj:`bool`, optional
