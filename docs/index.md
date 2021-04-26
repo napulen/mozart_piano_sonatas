@@ -3,3 +3,6 @@
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="05.html" height="480" width="100%"></iframe>
 **Figure 5:** Distribution of pitch classes over the dataset. [<a href="05.html" target=_blank>Enlarge</a>]
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="06a.html" height="480" width="100%"></iframe>
+**Figure 6a:** Unigram statistics for all **major** segments, ordered by rank. Blue markers show absolute counts, red markers the cumulated token fraction of the current and all previous ranks.[<a href="06a.html" target=_blank>Enlarge</a>]
