@@ -1,0 +1,232 @@
+Composer: Wolfgang Amadeus Mozart
+Title: Piano Sonata no. 5 in G major - 3: Presto
+Analyst: Hentschel et al. MPS dataset. See https://github.com/DCMLab/mozart_piano_sonatas
+Proofreader: Automated translation by Néstor Nápoles López
+
+Time Signature: 3/8
+
+m1 G: I
+m3 I b3 I
+m4 I b3 I
+m7 I b3 I
+m8 I b3 I
+m9 I6
+m10 ii6
+m11 iii6
+m12 IV6
+m13 V6 b3 V65
+m14 I
+m15 V43
+m16 I6
+m17 ii6
+m18 b2 IV
+m19 V b2 V7
+m20 IV6 b2 vi
+m21 ii6 b2 ii6
+m22 V b2 Cad64
+m23 V b2 V
+m24 I b2 I
+m25 V7/IV
+m26 IV6
+m27 viio6
+m28 I
+m29 V7/IV
+m30 IV6
+m31 viio6
+m32 I
+m33 IV b3 I64
+m34 IV6 b3 I64
+m35 ii65 b2 ii65 b3 I64
+m36 IV6 b3 I64
+m37 ii65 b2 ii65 b3 I64
+m38 IV6 b3 viiø7/V
+m39 V
+m43 D: V b2 V b3 V7
+m44 I6 b2 V b3 V7
+m45 I6 b3 I
+m46 V7
+m47 I6 b3 I
+m48 V65
+m51 V b2 IV64
+m52 V7 b2 IV64
+m53 V7
+m54 I6 b3 I
+m55 V b3 V65
+m56 I b3 ii
+m57 I
+m58 b2 vi b3 iio/vi
+m59 vi6
+m60 b2 IV b3 ii/IV
+m61 IV
+m62 b2 ii b3 iio/ii
+m63 ii6
+m65 V65
+m69 I
+m70 IV
+m71 Cad64
+m72 V7
+m73 I
+m74 V65/vi
+m75 vi
+m76 V65/ii
+m77 viio64/V b3 viio
+m78 viio64/IV b3 IV6
+m79 V7 b3 vi
+m80 ii65 b2 ii7 b3 V
+m81 I
+m82 It6/vi
+m83 V/vi
+m84 It6/ii
+m85 V/ii b3 V7/V
+m86 V7 b3 I
+m87 IV
+m88 V7
+m89 I6
+m90 IV
+m91 I
+m92 IV
+m93 Cad64
+m95 viio64 b3 viio6
+m96 viio b3 V
+m97 I b3 I6
+m98 IV
+m99 b3 viio/V
+m100 V
+m101 I b3 V
+m102 I
+m103 i
+m107 viio43/v
+m111 v6
+m115 e: viio7
+m117 i
+m119 Ger65
+m123 V
+m124 VI6 b3 viio/v
+m125 v b3 V7
+m126 i6 b3 i
+m127 V
+m128 VI6 b3.5 viio64/v
+m129 v b3 V
+m130 i6 b3 i
+m131 V
+m132 viio65
+m134 Ger65
+m136 Cad64
+m137 V7
+m138 i b3 i6
+m139 b2 iv
+m140 b3 viio/V
+m141 V
+m142 i b3 V7
+m143 i b3 d: V
+m144 i b3 V7
+m145 i b3 C: V
+m146 I b3 V7
+m147 I
+m148 G: ii
+m150 V7
+m151 V7 b3 V65/vi
+m152 vi
+m154 V6
+m155 V65
+m156 I
+m157 V6/vi b2 vi
+m158 vi2 b3 viio43/ii
+m159 V6/V b3 viio7/V
+m160 V
+m163 V
+m164 V
+m166 bVI
+m167 It6
+m168 V
+m172 I
+m174 I b3 I
+m175 I b3 I
+m178 I b3 I
+m179 I b3 I
+m180 I6
+m181 ii6
+m182 iii6
+m183 IV6
+m184 V6 b3 V65
+m185 I
+m186 V43
+m187 I6
+m188 ii6
+m189 b2 IV
+m190 V b2 V7
+m191 IV6 b2 vi
+m192 ii6 b2 ii6
+m193 V b2 Cad64
+m194 V b2 V
+m195 I b2 I
+m196 V7/IV
+m197 IV6
+m198 viio6
+m199 I
+m200 V7/IV
+m201 IV6
+m202 viio6
+m203 I
+m204 IV b3 I64
+m205 IV6 b3 I64
+m206 ii65 b2 ii65 b3 I64
+m207 IV6 b3 I64
+m208 ii65 b2 ii65 b3 I64
+m209 IV6 b3 viiø7/V
+m210 V
+m214 I6 b2 V b3 V7
+m215 I6 b2 V b3 V7
+m216 I6 b3 I
+m217 V7
+m218 I6 b3 I
+m219 V65
+m222 V b2 IV64
+m223 V7 b2 IV64
+m224 V7
+m225 I6 b3 I
+m226 V b3 V65
+m227 I b3 ii
+m228 I
+m229 b2 vi b3 iio/vi
+m230 vi6
+m231 b2 IV b3 ii/IV
+m232 IV
+m233 b2 ii b3 iio/ii
+m234 ii6
+m236 V65
+m240 I
+m241 IV
+m242 Cad64
+m243 V7
+m244 I
+m245 V65/vi
+m246 vi
+m247 V65/ii
+m248 viio64/V b3 viio
+m249 viio64/IV b3 IV6
+m250 V7 b3 vi
+m251 ii65 b2 ii7 b3 V
+m252 I
+m253 It6/vi
+m254 V/vi
+m255 It6/ii
+m256 V7/ii b3 V7/V
+m257 V7 b3 I
+m258 IV
+m259 V7
+m260 I6
+m261 IV
+m262 I
+m263 IV
+m264 Cad64
+m266 V2 b3 V64
+m267 V6 b3 V
+m268 I b3 I6
+m269 IV
+m270 b3 viio/V
+m271 V
+m272 I b3 V7
+m273 I
+m274 V7
+m276 I
